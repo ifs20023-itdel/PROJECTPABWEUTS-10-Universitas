@@ -9,47 +9,47 @@
               <h2 class="card-title text-center">Daftar Dosen Institut Teknologi Del</h2>
               <div class="table-responsive pt-3">
               <div class="text-center mt-3 mb-5">
-              <input
-                type="text"
-                class="border-2 mb-5 rounded h-10 p-2"
-                placeholder="Cari dosen"
-                @input="onSearch"
-                size = "50"
-              />
+                <div class="d-flex justify-content-center mt-5">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="form-group has-search">
+                      <span class="bi bi-search form-control-feedback"></span>
+                      <input type="text" class="form-control border-2" placeholder="Cari dosen" @input="onSearch" size = "50">
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th
-                    v-for="(column, index) in columns"
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th
+                      v-for="(column, index) in columns"
+                      v-bind:key="index"
+                      class="border-2 p-2 text-left"
+                      v-on:click="sortRecords(index)"
+                    >
+                      {{column}}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="(row, index) in rows"
                     v-bind:key="index"
-                    class="border-2 p-2 text-left"
-                    v-on:click="sortRecords(index)"
                   >
-                    {{column}}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  v-for="(row, index) in rows"
-                  v-bind:key="index"
-                >
-                  <td
-                    v-for="(rowItem, itemIndex) in row"
-                    v-bind:key="itemIndex"
-                    class="border-2 p-2"
-                  >
-                    {{rowItem}}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    <td
+                      v-for="(rowItem, itemIndex) in row"
+                      v-bind:key="itemIndex"
+                      class="border-2 p-2"
+                    >
+                      {{rowItem}}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
-    </div>
       <div class="col-lg-12 grid-margin stretch-card mt-60">
         <div class="card shadow rounded p-5">
           <div class="card-body">
