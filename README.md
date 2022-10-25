@@ -1,5 +1,5 @@
 <p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
-<h1 align="center">Website Institut Teknologi Del</h1>
+<h1 align="center">Institut Teknologi Del Website</h1>
 <p align="center">A university website project, Del Institute of Technology.<br>This website was developed by Group 10 and built using Vue.js framework.</p>
  
 ## Project setup
