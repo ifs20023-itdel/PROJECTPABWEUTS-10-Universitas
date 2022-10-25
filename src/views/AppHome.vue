@@ -111,7 +111,7 @@
               <div class="card shadow bg-body rounded mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="max-width: 700px;">
                 <div class="row g-0">
                     <div class="col-sm-5">
-                        <img src="assets/img/news10.jpg" class="card-img-top h-100" alt="...">
+                        <img src="assets/img/news10.jpg" class="card-img-top h-100" alt="Penandatanganan MoU Dan PKS Antara Institut Teknologi Del Dan Badan Pusat Stastik Toba">
                     </div>
                     <div class="col-sm-7">
                         <div class="card-body">
