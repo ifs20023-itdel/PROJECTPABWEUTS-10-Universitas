@@ -39,11 +39,11 @@
                     <a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                       <li>
-                        <a class="page-scroll" href="#features">Landasan</a>
+                        <a class="page-scroll" href="/#features">Landasan</a>
                       </li>
-                      <li><a class="page-scroll" href="#about">Sejarah</a></li>
+                      <li><a class="page-scroll" href="/#about">Sejarah</a></li>
                       <li>
-                        <a class="page-scroll" href="#visimisi">Visi Misi</a>
+                        <a class="page-scroll" href="/#visimisi">Visi Misi</a>
                       </li>
                     </ul>
                   </li>
